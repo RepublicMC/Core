@@ -1,0 +1,23 @@
+# CosmoNet Core Configuration
+
+Plugin:
+ Prefix: '&f(&a&lC&d&lN&f)'
+ 
+Server:
+ Aspects:
+  Crates: true
+  Shards: true
+  Gems: false
+  Levels: true
+  Supply-Drops: true
+ Chat:
+  Format: '%RANK% &f%PLAYER%&8: &7%MESSAGE%'
+  JSON:
+   Message:
+    Tooltip: ''
+    Suggestion: ''
+   Username:
+    Tooltip: ''
+    Suggestion: 'pm %PLAYER% Hey'
+   Prefix:
+    Tooltip: '%PREFIX% &aStats of %PLAYER%:%NL%&aMoney: &f$%MONEY%%NL%&aFaction: &f%FACTION%%nl%&aLevel: &f%LEVEL%'
