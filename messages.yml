@@ -1,0 +1,7 @@
+# Dynasty Core messages
+
+events:
+ connect: '&7Welome, &c[PLAYER] &7to the server!'
+ disconnect: ''
+ firstjoin: ''
+ 
